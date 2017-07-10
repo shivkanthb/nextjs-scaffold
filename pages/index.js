@@ -1,12 +1,22 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 
-const Index = () => (
-	<div>
-		<Link href='/about'>
-			<a> About Page </a>
-		</Link>
-		<p> Hello Next.js </p>
-	</div>
+// const Index = () => (
+// 	<div>
+// 		<Link href='/about' >
+// 			<button>Go to About Page</button>
+// 		</Link>
+// 		<p> Hello Next.js </p>
+// 	</div>
+// )
+
+// export default Index
+
+
+import Layout from '../components/Mylayout.js'
+
+export default() => (
+	<Layout>
+		<p>Hello Next.js</p>
+	</Layout>
 )
 
-export default Index
