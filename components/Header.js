@@ -12,6 +12,9 @@ const Header = () => (
 		<Link href= "/about">
 			<a style={linkStyle}>About</a>
 		</Link>
+		<Link href="/styled_index">
+			<a style={linkStyle}>Styled Home</a>
+		</Link>
 	</div>
 )
 
